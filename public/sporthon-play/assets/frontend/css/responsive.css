@@ -1,0 +1,73 @@
+@media(min-width: 1700px){
+	.container-fluid{
+		max-width: 1640px;
+		margin: auto;
+	}
+}
+
+@media(max-width: 991px){
+	.appdownloadpnl{
+		padding-top: 50px;
+	}
+	.downloadapp {
+		padding-bottom: 40px;
+	}
+	.home-banner{
+		min-height: auto;
+	}
+	.logo img{
+		height: 50px;
+	}
+}
+@media(max-width: 768px){
+	.topsearch{
+		display: none;
+	}
+	.mobilesearchbtn {
+		display: block;
+	}
+	.mobilesearch .topsearchfield{
+		width: 300px;
+	}
+	.videoppopup .modal-dialog{
+		max-width: 90%;
+		margin: auto;
+	}
+}
+
+@media(max-width:575px){
+	.logo img{
+		height: auto;
+	}
+	.topsidemenu .btn{
+		padding: 0 0 0 5px;
+	}
+	.toplogin .btn{
+		padding: 0 8px;
+	}
+	.mobilesearch .topsearchfield{
+		width:130px;
+	}
+	.banner-content {
+	    padding:100px 0 30px;
+	}
+	.bannerSearch{
+		width: 100%;
+		display: block !important;
+	}
+	.rw-words-1 span{
+		font-size: 13px;
+	}
+	.bannerSearch .typetextpnl, .bannerSearch .typelocation, .bannersrchbtn{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.bannerSearch{
+		padding: 10px 10px 5px 10px;
+	}
+	.partnerlogo img{
+	    width: 125px;
+	    height: 125px;
+	    object-fit: contain;
+	}
+}
